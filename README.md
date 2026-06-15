@@ -1,5 +1,5 @@
 # CanSat Telemetry Ground Station Simulator
-This Python ground station simulator processes real-time telemetry data from a falling satellite (CanSat). Built using tkinter and matplotlib for Code in Place, it prototypes data-parsing, graphical layout, and analytics ahead of developing a physical CanSat for a school final project later this year.
+This Python ground station simulator processes real-time telemetry data from a falling satellite (CanSat). Built using tkinter and matplotlib for Code in Place, it prototypes data-parsing, graphical layout, and analytics ahead of developing a physical CanSat for my school final project later this year.
 
 ## Project Overview
 the application simulates the real-time descent of a satellite after being dropped from a drone. it generates a live radio stream packet containing altitude, temperature, gps, and orientation (imu) updates. the graphical dashboard dynamically parses this text payload, alerts the operator during low altitudes, freezes the sensors at touchdown, and automatically pops up visual data charts using `matplotlib`.
